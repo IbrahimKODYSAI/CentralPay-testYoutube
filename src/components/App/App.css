@@ -1,0 +1,6 @@
+.App-body{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
