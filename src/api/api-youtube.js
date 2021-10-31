@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyBqO3dQFAvnAIdfMbT5CSExGQI1JrVgVNI";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 export default axios.create({
